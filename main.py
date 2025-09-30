@@ -3,7 +3,7 @@ import helpers
 
 
 class TestUrbanRoutes:
-    SERVER_URL =   'https://cnt-81366760-d9a1-4b3e-a022-192d260d7ab8.containerhub.tripleten-services.com'
+    SERVER_URL =  'https://cnt-81366760-d9a1-4b3e-a022-192d260d7ab8.containerhub.tripleten-services.com'
     @classmethod
     def setup_class(cls):
         if helpers.is_url_reachable(data.URBAN_ROUTES_URL):
@@ -45,7 +45,7 @@ class TestUrbanRoutes:
         # Loop through twice to simulate ordering 2 ice creams
         for i in range(2):  # range(2) gives 0 and 1
             # Add in S8
-            pass  # placeholder to keep code va
+            pass  # placeholder
         print("function created for order 2 ice creams")
         pass
 
